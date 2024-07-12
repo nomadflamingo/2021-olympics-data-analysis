@@ -1,40 +1,48 @@
-# Predicting 2024 Olympics Gold Medal Winners
+# 🏅 Predicting 2024 Olympics Gold Medal Winners for Women's Athletics
 
-## Introduction
+## 📚 Introduction
 
-This project aims to predict the number of gold medals that each country might win in the 2024 Paris Olympics. The prediction is based on historical data from previous Olympic games and the events planned for 2024. Using machine learning techniques, we analyze the historical performance of countries in different sports to forecast their success in the upcoming Olympics.
+This project aims to predict the number of gold medals that each country might win in women's athletics events at the 2024 Paris Olympics. The prediction is based on historical data from previous Olympic games. Using machine learning techniques, we analyze the historical performance of countries in women's athletics to forecast their success in the upcoming Olympics.
 
-## Project Overview
+## 📝 Project Overview
 
-### Datasets
+### 📊 Resources
 
-1. **Historical Olympics Data (1986-2018)**:
-    - Contains information about the medals won by athletes and teams in past Olympic games.
+1. **Historical Olympics Data (1986-2018)**: [Link](https://www.kaggle.com/code/piterfm/olympic-games-1986-2022-data-visualization#How-is-data-look-like)
+    - 📈 Contains information about the medals won by athletes and teams in past Olympic games.
     - Includes details such as the discipline, event, gender, medal type, and country.
 
-2. **2024 Paris Olympics Events**:
-    - Contains information about the events planned for the 2024 Paris Olympics.
+2. **2024 Paris Olympics Events**: [Link](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
+    - 📅 Contains information about the events planned for the 2024 Paris Olympics.
     - Includes details such as the event name, sport, and associated URLs.
 
-### Objective
+3. **Wikipedia**: [Link](https://en.wikipedia.org/wiki/2024_Summer_Olympics)
+    - Wiki page of 2024 Summer Olympics
+    - Web-scraped to find out countries-participants
 
-- To predict the number of gold medals each country will win in the 2024 Paris Olympics based on historical performance data.
+### 🎯 Objective
 
-## Steps Involved
+- To predict the number of gold medals each country will win in women's athletics events in the 2024 Paris Olympics based on historical performance data.
 
-1. **Data Collection and Preprocessing**:
+## 🛠️ Steps Involved
+
+1. **📥 Data Collection and Preprocessing**:
     - Load and clean the historical Olympics data.
-    - Filter the data to include only gold medals.
-    - Merge the historical data with the 2024 events data to align sports disciplines.
+    - Filter the data to include only gold medals in women's athletics.
 
-2. **Data Aggregation**:
+2. **📊 Data Aggregation**:
     - Aggregate the gold medal counts to ensure unique combinations of countries and sports.
     - Pivot the table to have sports as columns and countries as rows, filling missing values with zeros.
 
-3. **Model Training**:
+3. **🤖 Model Training**:
     - Use linear regression to train a model on the historical gold medal counts.
-    - Features include the number of gold medals won in each sport by each country.
+    - Features include the number of gold medals won in women's athletics by each country.
 
-4. **Prediction**:
-    - Predict the number of gold medals for each country in the 2024 Olympics.
+4. **🔮 Prediction**:
+    - Predict the number of gold medals for each country in women's athletics events in the 2024 Olympics.
     - Visualize the predictions using bar charts.
+
+## 🏆 Results
+
+- The model predicts the number of gold medals each country might win in women's athletics events at the 2024 Paris Olympics.
+- The predictions are visualized using bar charts to compare the performance of different countries.
