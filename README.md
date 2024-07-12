@@ -4,6 +4,8 @@
 
 This project aims to predict the number of gold medals that each country might win in women's athletics events at the 2024 Paris Olympics. The prediction is based on historical data from previous Olympic games. Using machine learning techniques, we analyze the historical performance of countries in women's athletics to forecast their success in the upcoming Olympics.
 
+<img src=https://res.cloudinary.com/df9uihxz1/image/upload/v1720799299/2024-07-12_18.46.16_szu0w8.jpg alt="Plot" width="800">
+
 ## 📝 Project Overview
 
 ### 📊 Resources
