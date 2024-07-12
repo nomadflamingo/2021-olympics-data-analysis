@@ -12,11 +12,11 @@ This project aims to predict the number of gold medals that each country might w
     - 📈 Contains information about the medals won by athletes and teams in past Olympic games.
     - Includes details such as the discipline, event, gender, medal type, and country.
 
-2. **2024 Paris Olympics Events**: [Link](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
+2. [**2024 Paris Olympics Events**](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games):
     - 📅 Contains information about the events planned for the 2024 Paris Olympics.
     - Includes details such as the event name, sport, and associated URLs.
 
-3. **Wikipedia**: [Link](https://en.wikipedia.org/wiki/2024_Summer_Olympics)
+3. [**Wikipedia**](https://en.wikipedia.org/wiki/2024_Summer_Olympics):
     - Wiki page of 2024 Summer Olympics
     - Web-scraped to find out countries-participants
 
