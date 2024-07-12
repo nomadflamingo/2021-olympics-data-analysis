@@ -48,3 +48,4 @@ This project aims to predict the number of gold medals that each country might w
 
 - The model predicts the number of gold medals each country might win in women's athletics events at the 2024 Paris Olympics.
 - The predictions are visualized using bar charts to compare the performance of different countries.
+- The average R-squared value for every country is approximately `0.31`
