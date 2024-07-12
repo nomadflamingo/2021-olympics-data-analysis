@@ -8,7 +8,7 @@ This project aims to predict the number of gold medals that each country might w
 
 ### 📊 Resources
 
-1. **Historical Olympics Data (1986-2018)**: [Link](https://www.kaggle.com/code/piterfm/olympic-games-1986-2022-data-visualization#How-is-data-look-like)
+1. [**Historical Olympics Data (1986-2018)**](https://www.kaggle.com/code/piterfm/olympic-games-1986-2022-data-visualization#How-is-data-look-like):
     - 📈 Contains information about the medals won by athletes and teams in past Olympic games.
     - Includes details such as the discipline, event, gender, medal type, and country.
 
